@@ -1,0 +1,9 @@
+name: 'Build latex with make'
+description: 'Calls make to build the latex document'
+runs:
+  using: docker
+  image: docker://antaljanosbenjamin/latex-extra:latest
+  entrypoint: make
+  args:
+    - -C
+    - /github/workspace

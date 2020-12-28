@@ -1,0 +1,8 @@
+name: test
+on: [push]
+jobs:
+  test-example:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: ./
