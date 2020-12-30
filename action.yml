@@ -1,5 +1,8 @@
 name: 'Build latex with make'
 description: 'Calls make to build the latex document'
+branding:
+  icon: file-text
+  color: orange
 inputs:
   directory:
     description: 'Path of the directory that contains the makefile relative to the root of the repository.'
