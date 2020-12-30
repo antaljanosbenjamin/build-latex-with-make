@@ -5,6 +5,7 @@ inputs:
     description: 'Path of the directory that contains the makefile relative to the root of the repository.'
     required: false
     default: .
+runs:
   using: docker
   image: docker://antaljanosbenjamin/latex-extra:latest
   entrypoint: make
