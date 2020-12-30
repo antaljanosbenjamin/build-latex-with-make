@@ -1,5 +1,6 @@
 name: 'Build latex with make'
 description: 'Calls make to build the latex document'
+author: antaljanosbenjamin
 branding:
   icon: file-text
   color: orange
