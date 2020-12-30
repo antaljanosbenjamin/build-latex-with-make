@@ -22,4 +22,4 @@ jobs:
       - uses: antaljanosbenjamin/build-latex-with-make@master
 ```
 
-For further examples check the [test workflow](.github/workflows/test.yaml).
+For further examples check the [test workflow](.github/workflows/test.yml).
