@@ -1,9 +1,14 @@
 name: 'Build latex with make'
 description: 'Calls make to build the latex document'
+inputs:
+  directory:
+    description: 'Path of the directory that contains the makefile relative to the root of the repository.'
+    required: false
+    default: .
 runs:
   using: docker
   image: docker://antaljanosbenjamin/latex-extra:latest
   entrypoint: make
   args:
     - -C
-    - /github/workspace
+    - /github/workspace/${{ inputs.directory }}
