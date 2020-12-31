@@ -1,3 +1,4 @@
+# :negative_squared_cross_mark: THIS REPOSITORY IS ARCHIVED
 # Build latex with make
 This action can be used to build latex documents with make. The `texlive-latex-extra texlive-fonts-extra texlive-bibtex-extra biber make git` packages are installed on the base ubuntu image, so everything can be used that is available in the ubuntu base image or installed by these packages. My focus is on `pdflatex` and `biber` as I am using these tools.
 
